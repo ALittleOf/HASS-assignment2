@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<style>
-.svgRect {
-    stroke: none;
-    fill: #FFC300;
-}
-</style>
+    <meta charset="utf-8">
+    <style>
+    .svgRect {
+        stroke: none;
+        fill: #FFC300;
+    }
+    </style>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link href = "index.css" rel = "stylesheet" type="text/css"/>
+    <script src="./ageData.js"></script>
 </head>
+
 <body>
 <button id="bt1">age</button>
 <button id="bt2">crime</button>
 <svg id="chart" viewBox="0 0 1000 1000"></svg>
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="./ageData.js"></script>
 <script>
 let data = [
     {student: "Alfred", score: 65},
