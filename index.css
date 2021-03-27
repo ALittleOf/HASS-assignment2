@@ -1,1 +1,10 @@
 /*Assignment Two (02.526 Interactive Data Visualisation)*/
+body {
+	text-align: center; 
+	color: gray;
+}
+
+.svgRect {
+    stroke: none;
+    fill: #FFC300;
+}
