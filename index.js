@@ -12,13 +12,17 @@ let data = [
 
 let data2 = [
     {student: "Cheating & Related", score: 62.25},
+    {student: "Murder", score: 0.15},
     {student: "Outrage of Modesty", score: 21.79},
     {student: "Rape", score: 2.96},
     {student: "Rioting", score: 3.00},
+    {student: "Robbery", score: 2.39},
     {student: "Serious Hurt", score: 5.70},
+    {student: "Snatch Theft", score: 1.76},
+
 ];
 
-let margin = {top: 50, right: 50, bottom: 50, left: 50}
+let margin = {top: 10, right: 50, bottom: 20, left: 50}
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -45,7 +49,7 @@ chart.append("g")
 // Add y-axis
 chart.append("g")
     .attr("class", "axis axis-y")
-    .call(d3.axisLeft(yScale).ticks(10));
+    .call(d3.axisLeft(yScale).ticks(50)); //steps of 5
     
 //Sample enter, update and exit loop
 function drawChart(dataSet) {
