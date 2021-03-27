@@ -1,3 +1,3 @@
-- fetch API on Singapore carpark availability (.js)
-append to table on HTML (.html)
-styling with CSS (.css)
+- download data and covert to JSON manually (.js)
+- append to graph on HTML (.html)
+- styling with CSS (.css)
