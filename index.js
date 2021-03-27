@@ -22,6 +22,18 @@ let data2 = [
 
 ];
 
+let data3 = [
+    {student: "Year 2011", score: 7.71},
+    {student: "Year 2012", score: 7.01},
+    {student: "Year 2013", score: 7.29},
+    {student: "Year 2014", score: 9.29},
+    {student: "Year 2015", score: 12.39},
+    {student: "Year 2016", score: 12.04},
+    {student: "Year 2017", score: 12.46},
+    {student: "Year 2018", score: 13.82},
+    {student: "Year 2019", score: 18.00},
+];
+
 let margin = {top: 10, right: 50, bottom: 20, left: 50}
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -99,6 +111,10 @@ d3.select("#bt1").on("click", function() {
 
 d3.select("#bt2").on("click", function() {
     drawChart(data2);
+});
+
+d3.select("#bt3").on("click", function() {
+    drawChart(data3);
 });
 
 drawChart(data);
