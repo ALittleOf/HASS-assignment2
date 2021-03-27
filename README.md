@@ -1,2 +1,3 @@
-# HASS-assignment2
-Assignment Two for 02.526 Interactive Data Visualisation
+fetch API on Singapore carpark availability (.js)
+append to table on HTML (.html)
+styling with CSS (.css)
