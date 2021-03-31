@@ -1,7 +1,9 @@
 /*Assignment Two (02.526 Interactive Data Visualisation)*/
+
 body {
 	text-align: center; 
-	color: gray;
+	color: "black";
+	font: helvetica;
 }
 
 .svgRect {
