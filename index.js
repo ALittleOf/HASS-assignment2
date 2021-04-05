@@ -62,6 +62,21 @@ chart.append("g")
 chart.append("g")
     .attr("class", "axis axis-y")
     .call(d3.axisLeft(yScale).ticks(50)); //steps of 5
+
+// // Add x-labels
+// chart
+//     .append("text")
+//     .attr("transform", "translate(" + (width / 2) + "," + (height + 40) + ")")
+//     .text("type")
+//     .attr("text-align", "middle");
+
+// Add y-labels
+chart
+    .append("text")
+    .attr("transform", "translate(-35, " + (height / 2) + ") rotate(-90)")
+    .text("%")
+    .attr("text-align", "middle");
+
     
 //Sample enter, update and exit loop
 function drawChart(dataSet) {
